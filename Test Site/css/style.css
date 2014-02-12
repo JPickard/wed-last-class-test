@@ -1,0 +1,164 @@
+body {
+	font-family: 'Times New Roman', sans-serif;
+	color: #000;
+	background: #000 url('img/bg-texture.jpg') repeat;
+}
+
+a {
+	font-size: 1.5em;
+	color: #39F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0F0;
+}
+
+h1 {
+	color: lightgreen;
+	font-size: 2em;
+	letter-spacing: -1.5px;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 1.500em;
+	color: #000;
+}
+
+.container {
+	background: #222;
+	color: green;
+	border: 3px solid lightblue;
+	border-radius: 10px;
+}
+
+.navbar{
+	margin: 0 2%;	
+	text-align: center;
+}
+
+.navbar a{
+	margin: 0 20px;
+}
+
+.nav {
+	font-size: 1em;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	margin-right: 30px;
+}
+
+.copyright {
+	font-size: 1em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.top-banner{
+	font-family: 'Geostar Fill', sans-serif;
+	font-size: 5em;
+	text-align: center;
+}
+
+.content{
+	color: lightblue;
+}
+
+.rightside{
+	text-align: right;
+	float: right;
+}
+
+.leftside{
+	text-align: left;
+	float: left;
+}
+
+.textwrap{
+	float:left;
+	margin: 2% 2% 2% 0;
+}
+
+#headpic img {
+	border: 8px solid limegreen;
+}
+
+.tabular{
+	color:black;
+	margin: 0;
+}
+
+.tabular li{
+	padding: 1%;
+	border-radius: 20px 20px 0 0;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.tabs{
+	margin-bottom: 0;
+}
+
+.yellownav{
+	visibility: visible;
+	background: yellow;
+}
+
+.greennav{
+	background: limegreen;
+}
+
+.orangenav{
+	background: orange;
+}
+
+.bluenav{
+	background: royalblue;
+}
+
+.tabcontents{
+	margin-top: 0;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.tabcontents:hover {
+	visibility: visible;
+	transition-property: visibility;
+	transition-duration: 1s;
+}
+
+.yellowtab{
+	background: -webkit-linear-gradient(yellow, #FFF);
+}
+
+.greentab{
+	background: -webkit-linear-gradient(limegreen, #FFF);
+}
+
+.orangetab{
+	background: -webkit-linear-gradient(orange, #FFF);
+}
+
+.bluetab{
+	background: -webkit-linear-gradient(royalblue, #FFF);
+}
+
+.placeholder{
+	height:300px;
+	text-align: center;
+}
+
+.advertisements{
+	height: 500px;
+	border: 5px solid limegreen;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 2%;
+	float: right;
+}
